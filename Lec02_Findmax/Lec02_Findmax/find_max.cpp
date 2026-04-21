@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int findArrayMax(int score[], int n)
+{
+    int tmp = score[0];
+
+    for (int i = 1; i < n; i++)
+    {
+        if (score[i] > tmp)
+        {
+            tmp = score[i];
+        }
+    }
+
+    return tmp;
+}
+
+int main()
+{
+    int score[5] = { 1, 10, 2, 4, 5 };
+
+    int result;
+
+    result = findArrayMax(score, 5);
+
+    printf("result = %d", result);
+
+    return 0;
+}
