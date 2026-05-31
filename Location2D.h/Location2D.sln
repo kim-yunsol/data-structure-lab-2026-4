@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.37111.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Location2D.cpp", "Location2D.h\Location2D.h.vcxproj", "{660BBC77-62EE-4331-AEDC-398F8688A981}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "main", "main\main.vcxproj", "{FCC59CCD-EEA3-44DB-B531-020D4218B712}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{660BBC77-62EE-4331-AEDC-398F8688A981}.Release|x64.Build.0 = Release|x64
 		{660BBC77-62EE-4331-AEDC-398F8688A981}.Release|x86.ActiveCfg = Release|Win32
 		{660BBC77-62EE-4331-AEDC-398F8688A981}.Release|x86.Build.0 = Release|Win32
+		{FCC59CCD-EEA3-44DB-B531-020D4218B712}.Debug|x64.ActiveCfg = Debug|x64
+		{FCC59CCD-EEA3-44DB-B531-020D4218B712}.Debug|x64.Build.0 = Debug|x64
+		{FCC59CCD-EEA3-44DB-B531-020D4218B712}.Debug|x86.ActiveCfg = Debug|Win32
+		{FCC59CCD-EEA3-44DB-B531-020D4218B712}.Debug|x86.Build.0 = Debug|Win32
+		{FCC59CCD-EEA3-44DB-B531-020D4218B712}.Release|x64.ActiveCfg = Release|x64
+		{FCC59CCD-EEA3-44DB-B531-020D4218B712}.Release|x64.Build.0 = Release|x64
+		{FCC59CCD-EEA3-44DB-B531-020D4218B712}.Release|x86.ActiveCfg = Release|Win32
+		{FCC59CCD-EEA3-44DB-B531-020D4218B712}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
